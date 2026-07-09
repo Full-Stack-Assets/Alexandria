@@ -16,7 +16,7 @@ const Hero: React.FC = () => (
         <a className="button button--primary" href="#modules">
           Explore the modules
         </a>
-        <a className="button button--secondary" href={REPO_URL} target="_blank" rel="noreferrer">
+        <a className="button button--secondary" href={REPO_URL} target="_blank" rel="noopener noreferrer">
           View source
         </a>
       </div>

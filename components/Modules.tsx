@@ -47,7 +47,7 @@ const Modules: React.FC = () => (
                 </span>
               ))}
             </div>
-            <a className="module-card__link" href={mod.href} target="_blank" rel="noreferrer">
+            <a className="module-card__link" href={mod.href} target="_blank" rel="noopener noreferrer">
               Browse module →
             </a>
           </article>

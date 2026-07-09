@@ -10,7 +10,7 @@ const Header: React.FC = () => (
       </a>
       <nav className="site-header__nav">
         <a href="#modules">Modules</a>
-        <a href={REPO_URL} target="_blank" rel="noreferrer">
+        <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
       </nav>
