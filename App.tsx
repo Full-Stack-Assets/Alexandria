@@ -1,15 +1,19 @@
 import React from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Modules from './components/Modules';
+import Footer from './components/Footer';
+import './App.css';
 
-const App: React.FC = () => {
-  return (
-    <main style={{ fontFamily: 'system-ui, sans-serif', padding: '3rem', maxWidth: 640, margin: '0 auto' }}>
-      <h1>Alexandria</h1>
-      <p>
-        This scaffold is ready for the app to be built out. See the repository README for the
-        other module in this repo (the Unreal Engine Alexandria Library plugin).
-      </p>
+const App: React.FC = () => (
+  <>
+    <Header />
+    <main>
+      <Hero />
+      <Modules />
     </main>
-  );
-};
+    <Footer />
+  </>
+);
 
 export default App;
